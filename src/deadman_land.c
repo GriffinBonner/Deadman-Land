@@ -71,7 +71,7 @@ void appMain(){
 
     while(1){
 
-        vTaskDelay(M2T(10)); // block task for 100 ms
+        vTaskDelay(M2T(100)); // block task for 100 ms
 
         rssi = logGetUint(idRssi); // rssi log parameter
         cur_con = logGetUint(idConnection); // connectivity log parameter
