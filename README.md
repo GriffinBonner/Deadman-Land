@@ -21,7 +21,12 @@ Clone the repos with ```--recursive```. If you did not do so, pull submodules wi
 git submodule update --init --recursive
 ```
 
-Then build and bootload:
+Clone this repository to this location in Bitcraze VM:
+```
+~/crazyflie-firmware/examples/app_deadman_land
+```
+
+Navigate to the new directory to build and bootload:
 ```
 make -j$(nproc)
 make cload
